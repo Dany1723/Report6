@@ -1,10 +1,13 @@
 package jp.ac.uryukyu.ie.e175723;
 import java.util.*;
+//ゲーム開始。
+//プレイヤー間で手札の移動をします。
 public class Play {
     public void startGame(Distribute game1,Player user1,Player user2){
+
         ArrayList<String>player1=game1.handCard1;
         ArrayList<String>player2=game1.handCard2;
-
+        System.out.println(user1.getName()+" vs "+user2.getName());
         String card;
         while (true) {
             if (player1.size() == 0) {

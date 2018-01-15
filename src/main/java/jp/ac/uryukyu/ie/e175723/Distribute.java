@@ -1,5 +1,6 @@
 package jp.ac.uryukyu.ie.e175723;
 import java.util.*;
+//手札を配るメソッド
 public class Distribute{
 
     ArrayList<String> handCard1;

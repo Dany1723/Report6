@@ -1,3 +1,4 @@
+//ババ抜きするプログラム
 package jp.ac.uryukyu.ie.e175723;
 
 import java.util.*;
